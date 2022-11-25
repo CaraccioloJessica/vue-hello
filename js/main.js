@@ -9,7 +9,8 @@ const { createApp } = Vue
   createApp({
     data() {
       return {
-        message: 'Hello World!'
+        title: 'Hello World!',
+        immagine: 'img/unsplash-map.jpg'
       }
     }
-  }).mount('#title')
+  }).mount('#myapp')
