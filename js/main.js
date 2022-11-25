@@ -4,13 +4,14 @@ Bonus:
 Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 */
 
-const { createApp } = Vue
+const { createApp } = Vue;
 
   createApp({
     data() {
       return {
-        title: 'Hello World!',
-        immagine: 'img/unsplash-map.jpg'
+        title: 'HELLO WORLD',
+        immagine: 'img/unsplash-map.jpg',
+        miaClasse: 'content'
       }
     }
   }).mount('#myapp')
